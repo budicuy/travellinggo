@@ -19,7 +19,7 @@ const config: Config = {
   daisyui: {
     themes: ["dark", "synthwave"],
     mytheme: {
-      "warning": "#FFA500",
+      "warning": "",
       "primary": "#FFA500",
     },
   },

@@ -24,6 +24,7 @@ export default function RootLayout({
       <body className={quicksand.className}>
         <Navbar />
         {children}
+
       </body>
     </html>
   );
