@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .hamburger-line {
   @apply w-[30px] h-[2px] block bg-white my-2;
 }
@@ -20,4 +19,11 @@
 
 .navbar-fixed {
   @apply fixed z-[9999] glass;
+}
+
+.image-gallery {
+  @apply block object-cover object-center lg:transition-all group-hover:scale-125 aspect-video;
+}
+.image-card-gallery {
+  @apply overflow-hidden rounded-lg relative;
 }
