@@ -180,7 +180,7 @@ export default function Home() {
               <div className="flex flex-wrap w-full md:w-1/2">
                 <div className="w-1/2 p-1 md:p-2">
                   <div className="image-card-gallery group ">
-                    <Image fill alt="gallery" className="image-gallery" src={dataPlace[0].image} />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
 
@@ -195,7 +195,7 @@ export default function Home() {
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
                   <div className="image-card-gallery group ">
-                    <Image fill alt="gallery" className="image-gallery" src="/image-grid.jpg" />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
 
@@ -210,7 +210,7 @@ export default function Home() {
                 </div>
                 <div className="w-full p-1 md:p-2">
                   <div className="image-card-gallery group">
-                    <Image fill alt="gallery" className="image-gallery" src="/image-grid.jpg" />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
 
@@ -228,7 +228,7 @@ export default function Home() {
               <div className="flex flex-wrap w-full md:w-1/2">
                 <div className="w-1/2 md:w-full p-1 md:p-2">
                   <div className="image-card-gallery group">
-                    <Image fill alt="gallery" className="image-gallery" src="/image-grid.jpg" />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
                     <div className="absolute text-white font-bold lg:bottom-5 bottom-2 left-2 lg:left-5">
@@ -242,7 +242,7 @@ export default function Home() {
                 </div>
                 <div className="w-1/2 p-1 md:p-2">
                   <div className="image-card-gallery group">
-                    <Image fill alt="gallery" className="image-gallery" src="/image-grid.jpg" />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
                     <div className="absolute text-white font-bold lg:bottom-5 bottom-2 left-2 lg:left-5">
@@ -256,7 +256,7 @@ export default function Home() {
                 </div>
                 <div className="w-full md:w-1/2 p-1 md:p-2">
                   <div className="image-card-gallery group">
-                    <Image fill alt="gallery" className="image-gallery" src="/image-grid.jpg" />
+                    <img alt="gallery" className="image-gallery" src="/image-grid.jpg" />
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/30 to-black/70" />
                     <div className="absolute text-white font-bold lg:bottom-5 bottom-2 left-2 lg:left-5">

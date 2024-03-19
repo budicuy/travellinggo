@@ -1,7 +1,19 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+
+// add host images.unsplash.com
+const nextConfig = {
+   images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
+};
 
 export default nextConfig;
 
-// add host images.unsplash.com
-module.exports 
+
+  
