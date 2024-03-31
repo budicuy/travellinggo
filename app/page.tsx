@@ -1,4 +1,4 @@
-import Banner from "./Banner";
+import Banner from "./banner";
 import Destination from "./Destination";
 import Promo from "./Promo";
 import Menu from "./Menu";
