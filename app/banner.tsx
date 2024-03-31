@@ -19,9 +19,10 @@ export default function Banner() {
         <>
             <Swiper className="mySwiper relative overflow-hidden "
                 modules={[Autoplay]}
+                speed={1000}
                 loop={true}
                 autoplay={{
-                    delay: 5000,
+                    delay: 4000,
                 }}
             >
                 <div className="absolute z-50 overflow-hidden left-0 top-0 right-0 bottom-0 shadow">

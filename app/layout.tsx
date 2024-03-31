@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "./globals.css";
-import Navbar from "./navbar";
-
 
 const quicksand = Quicksand({
   subsets: ["latin"],
-  weight: ["300", "400", "600", "700", "500"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -21,10 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="synthwave" >
-      <body className={quicksand.className}>
-        <Navbar />
-        {children}
+      <body className={`${quicksand.className}`}>
 
+        {children}
       </body>
     </html>
   );

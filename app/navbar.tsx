@@ -49,18 +49,18 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="group">
-                                    <Link href="/about">
+                                    <Link href="/">
                                         <span className="py-2 mx-8 group-hover:text-primary">About</span>
                                     </Link>
                                 </li>
                                 <li className="group">
-                                    <Link href="/contact">
-                                        <span className="py-2 mx-8 group-hover:text-primary">Contact</span>
+                                    <Link href="/">
+                                        <span className="py-2 mx-8 group-hover:text-primary">Popular</span>
                                     </Link>
                                 </li>
                                 <li className="group">
-                                    <Link href="/blog">
-                                        <span className="py-2 mx-8 group-hover:text-primary">Blog</span>
+                                    <Link href="/">
+                                        <span className="py-2 mx-8 group-hover:text-primary">Contact</span>
                                     </Link>
                                 </li>
                             </ul>
